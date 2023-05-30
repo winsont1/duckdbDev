@@ -16,6 +16,6 @@ Close DOUBLE,
 High DOUBLE,
 AdjClose DOUBLE,
 Volume INTEGER);
-COPY new_etf_table FROM 'nasdaq_archive/etfs/AAAU.csv' ( HEADER);
+COPY new_etf_table FROM 'nasdaq_archive/etfs/*.csv' ( HEADER);
 SELECT MAX(Low) FROM new_etf_table;
 """).fetchall())
