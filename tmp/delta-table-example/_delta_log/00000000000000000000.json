@@ -1,4 +1,0 @@
-{"commitInfo":{"delta-rs":"0.8.0","timestamp":1685869836341}}
-{"protocol":{"minReaderVersion":1,"minWriterVersion":1}}
-{"metaData":{"id":"2563e8c5-ce90-4f73-8dd6-f60bdc1a8e26","name":null,"description":null,"format":{"provider":"parquet","options":{}},"schemaString":"{\"type\":\"struct\",\"fields\":[{\"name\":\"id\",\"type\":\"long\",\"nullable\":true,\"metadata\":{}},{\"name\":\"name\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}}]}","partitionColumns":[],"createdTime":1685869836340,"configuration":{}}}
-{"add":{"path":"0-7d9cb603-8685-44b1-8a74-1091198c4adf-0.parquet","size":18968,"partitionValues":{},"modificationTime":1685869836338,"dataChange":true,"stats":"{\"numRecords\": 1000, \"minValues\": {\"id\": 0, \"name\": \"Aaron Baker\"}, \"maxValues\": {\"id\": 999, \"name\": \"Zachary Morgan\"}, \"nullCount\": {\"id\": 0, \"name\": 0}}","tags":null}}
